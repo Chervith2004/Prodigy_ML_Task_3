@@ -1,3 +1,5 @@
+Prodigy Machine Learnining Task-3:
+
 Cat vs Dog Image Classification
 This project demonstrates a simple image classification pipeline using Support Vector Machine (SVM) to distinguish between images of cats and dogs.
 
