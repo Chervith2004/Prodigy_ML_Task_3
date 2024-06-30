@@ -1,10 +1,19 @@
-# Prodigy_ML_Task_3
-SVM Image Classification: Cats vs Dogs This repository demonstrates image classification using Support Vector Machine (SVM) to distinguish between images of cats and dogs.
+Cat vs Dog Image Classification
+This project demonstrates a simple image classification pipeline using Support Vector Machine (SVM) to distinguish between images of cats and dogs.
 
-Overview: In this project, we utilize SVM from scikit-learn along with OpenCV to preprocess and classify images of cats and dogs. The steps include loading images, resizing them to a fixed size, converting them to grayscale, and flattening them into 1D arrays for SVM input.
+Table of Contents
+-Introduction
+-Dataset
+-Results
 
-Files: Task_3.ipynb: Jupyter Notebook containing the Python script for loading, preprocessing, training, and evaluating the SVM model. cats/: Directory containing images of cats. dogs/: Directory containing images of dogs.
+1.Introduction
+This project aims to classify images of cats and dogs using a Support Vector Machine (SVM) classifier. The images are preprocessed, flattened, and then fed into the SVM model for training and testing. The performance of the model is evaluated using accuracy, confusion matrix, and classification report.
 
-Libraries Used: OpenCV: Used for image loading and preprocessing. numpy: For array operations and data manipulation. scikit-learn: Used for SVM model implementation and evaluation. matplotlib: For visualization, including confusion matrix plotting. seaborn: Enhances the visualization of the confusion matrix.
+2.Dataset
+The dataset should contain two folders: cats and dogs. Each folder should contain grayscale images of cats and dogs, respectively. The images are resized to 100x100 pixels before being processed.
 
-Results: The SVM model achieves an accuracy of X% on the test set, effectively distinguishing between images of cats and dogs. This project demonstrates the application of SVM in image classification tasks and provides insights into model performance.
+3.Results
+After running the script, you will get the following results:
+Accuracy: The accuracy of the SVM model on the test set.
+Confusion Matrix: A heatmap plot of the confusion matrix.
+Classification Report: Precision, recall, and F1-score for each class.
