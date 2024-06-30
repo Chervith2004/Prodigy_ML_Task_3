@@ -1,4 +1,4 @@
-
+Linkedin post link:https://www.linkedin.com/posts/gottipati-2004-chervith_machinelearning-prodigyinfotech-activity-7213144437013536768-Ci53?utm_source=share&utm_medium=member_desktop
 
 Cat vs Dog Image Classification
 This project demonstrates a simple image classification pipeline using Support Vector Machine (SVM) to distinguish between images of cats and dogs.
